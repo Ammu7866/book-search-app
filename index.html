@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book Search App</h1>
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="Enter book title..." />
+      <button onclick="searchBooks()">Search</button>
+      <select id="sortBy">
+        <option value="">Sort by</option>
+        <option value="title">Title</option>
+        <option value="author">Author</option>
+      </select>
+    </div>
+    <div id="bookResults"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
